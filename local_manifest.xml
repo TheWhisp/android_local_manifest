@@ -11,7 +11,7 @@
     <project path="hardware/libhardware_legacy" name="legaCyMod/android_hardware_libhardware_legacy" revision="cm-10.1" />
 
     <!-- Local projects -->
-	<project path="external/backports-wireless" name="TheWhisp/backports-3.10-2" revision="master" />
+	<project path="hardware/atheros/backports-wireless" name="TheWhisp/android_hardware_atheros_ath6kl" revision="master" />
     <project path="hardware/atheros/wifi/libs" name="TheWhisp/android_hardware_atheros_wifi_libs" revision="cm-10.1" />
     <project path="hardware/qcom/display-legacy" name="legaCyMod/android_hardware_qcom_display-legacy" revision="cm-10.1" />
     <project path="hardware/qcom/media-legacy" name="legaCyMod/android_hardware_qcom_media-legacy" revision="cm-10.1" />
