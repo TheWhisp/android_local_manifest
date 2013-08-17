@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- CM replacements -->
-    <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
     <remove-project name="CyanogenMod/android_frameworks_av" />
     <remove-project name="CyanogenMod/android_frameworks_native" />
     <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
-    <project path="external/wpa_supplicant_8" name="legaCyMod/android_external_wpa_supplicant_8" revision="cm-10.1" />
     <project path="frameworks/av" name="legaCyMod/android_frameworks_av" revision="cm-10.1" />
     <project path="frameworks/native" name="legaCyMod/android_frameworks_native" revision="cm-10.1" />
     <project path="hardware/libhardware_legacy" name="legaCyMod/android_hardware_libhardware_legacy" revision="cm-10.1" />
 
     <!-- Local projects -->
-	<project path="hardware/atheros/backports-wireless" name="TheWhisp/android_hardware_atheros_ath6kl" revision="master" />
-    <project path="hardware/atheros/wifi/libs" name="TheWhisp/android_hardware_atheros_wifi_libs" revision="cm-10.1" />
+    <project path="hardware/atheros/backports-wireless" name="TheWhisp/android_hardware_atheros_ath6kl" revision="master" />
+    <project path="hardware/atheros/wlan" name="TheWhisp/android_hardware_atheros_wlan" revision="cm-10.1" />
     <project path="hardware/qcom/display-legacy" name="legaCyMod/android_hardware_qcom_display-legacy" revision="cm-10.1" />
     <project path="hardware/qcom/media-legacy" name="legaCyMod/android_hardware_qcom_media-legacy" revision="cm-10.1" />
 
