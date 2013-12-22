@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- CM replacements -->
-    <remove-project name="CyanogenMod/android_frameworks_av" />
     <remove-project name="CyanogenMod/android_frameworks_native" />
-    <project path="frameworks/av" name="androidarmv6/android_frameworks_av" revision="cm-10.2" />
-    <project path="frameworks/native" name="legaCyMod/android_frameworks_native" revision="cm-10.2" />
+    <project path="frameworks/native" name="omnirom/android_frameworks_native" revision="android-4.4" />
 
     <!-- Local projects -->
-    <project path="hardware/atheros/wlan" name="TheWhisp/android_hardware_atheros_wlan" revision="cm-10.1" />
-    <project path="hardware/qcom/display-legacy" name="Dazzozo/android_hardware_qcom_display-legacy" revision="jellybean-mr2" />
+    <project path="external/webkit" name="legaCyMod/android_external_webkit" revision="cm-11.0" />
+    <project path="hardware/atheros/wlan" name="TheWhisp/android_hardware_atheros_wlan" revision="cm-11.0" />
+    <project path="hardware/qcom/display-legacy" name="TheWhisp/android_hardware_qcom_display-legacy" revision="jellybean-mr2" />
     <project path="hardware/qcom/media-legacy" name="Dazzozo/android_hardware_qcom_media-legacy" revision="jellybean-mr2" />
 
-	<!-- FM Radio -->
-    <project path="hardware/qcom/fm" name="legaCyMod/android_hardware_qcom_fm" revision="cm-10.2" />
-    <project path="packages/apps/FM2" name="legaCyMod/android_packages_apps_FM2" revision="cm-10.2" />
+    <!-- FM Radio -->
+    <project path="hardware/qcom/fm" name="legaCyMod/android_hardware_qcom_fm" revision="cm-11.0" />
+    <project path="packages/apps/FM2" name="legaCyMod/android_packages_apps_FM2" revision="cm-11.0" />
 </manifest>
