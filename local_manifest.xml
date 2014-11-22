@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- CM replacements -->
-    <remove-project name="CyanogenMod/android_frameworks_native" />
-    <remove-project name="CyanogenMod/android_frameworks_av" />
+    <project path="device/samsung/wilcoxltexx" name="TheWhisp/android_device_samsung_wilcoxltexx" revision="cm-11.0" />
+    <project path="device/samsung/qcom-common" name="TheWhisp/android_device_samsung_qcom-common" revision="cm-11.0" />
+    <project path="vendor/samsung" name="TheWhisp/proprietary_vendor_samsung" revision="cm-11.0" />
 
-    <project path="frameworks/native" name="legaCyMod/android_frameworks_native" revision="cm-11.0" />
-    <project path="frameworks/av" name="legaCyMod/android_frameworks_av" revision="cm-11.0" />
-
-    <!-- Local projects -->
-    <project path="hardware/atheros/wlan" name="TheWhisp/android_hardware_atheros_wlan" revision="cm-11.0" />
-    <project path="hardware/qcom/display-legacy" name="TheWhisp/android_hardware_qcom_display-legacy" revision="jellybean-mr2" />
-    <project path="hardware/qcom/media-legacy" name="TheWhisp/android_hardware_qcom_media-legacy" revision="jellybean-mr2" />
-
-    <!-- FM Radio -->
-    <project path="hardware/qcom/fm-mr1" name="legaCyMod/android_hardware_qcom_fm" revision="cm-11.0" />
-    <project path="packages/apps/FM2" name="legaCyMod/android_packages_apps_FM2" revision="cm-11.0" />
-
-    <!-- Classic webkit -->
-    <project path="external/webkit" name="legaCyMod/android_external_webkit" revision="cm-11.0" />
+    <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-11.0" />
+    <project path="device/samsung/msm8930-common" name="CyanogenMod/android_device_samsung_msm8930-common" revision="cm-11.0" />
+    <project path="kernel/samsung/msm8930" name="CyanogenMOd/android_kernel_samsung_msm8930-common" revision="cm-11.0" />
+    <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" revision="cm-11.0" />
 </manifest>
+
