@@ -1,1 +1,1 @@
-Repositories that are needed to build CyanogenMod 11 for Galaxy Express 2 (wilcoxltexx)
+Repositories that are needed to build CyanogenMod 12.1 for Galaxy A5 (a5ultexx)
