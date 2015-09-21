@@ -10,5 +10,7 @@
     <project path="external/mm-dash" name="CyanogenMod/android_external_mm-dash" revision="cm-12.1" />
 
     <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" revision="cm-12.1" />
+
+    <project path="packages/services/Telecomm" name="TheWhisp/android_packages_services_Telecomm" revision="cm-12.1" />
 </manifest>
 
