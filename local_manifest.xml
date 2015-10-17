@@ -13,7 +13,7 @@
     <project path="device/samsung/msm8930-common" name="CyanogenMod/android_device_samsung_msm8930-common" revision="cm-12.1" />
 
     <!-- Kernels -->
-    <project path="kernel/samsung/msm8916" name="TheWhisp/android_kernel_samsung_a5" revision="cm-12.1" />
+    <project path="kernel/samsung/msm8916" name="TheWhisp/android_kernel_samsung_msm8916-caf" revision="cm-12.1" />
     <project path="kernel/samsung/msm8930" name="CyanogenMod/android_kernel_samsung_msm8930-common" revision="cm-12.1" />
 
     <!-- Vendor -->
