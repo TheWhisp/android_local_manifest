@@ -20,7 +20,7 @@
     <project path="vendor/samsung" name="MSM8916-Samsung/proprietary_vendor_samsung" revision="cm-12.1" />
 
     <!-- Common device repos -->
-    <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" revision="cm-12.1" />
+    <project path="device/samsung/qcom-common" name="TheWhisp/android_device_samsung_qcom-common" revision="cm-12.1" />
     <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-12.1" />
 
     <!-- Hardware -->
