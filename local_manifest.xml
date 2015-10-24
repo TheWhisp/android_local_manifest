@@ -23,7 +23,7 @@
 
     <!-- Common device repos -->
     <project path="device/samsung/qcom-common" name="TheWhisp/android_device_samsung_qcom-common" revision="cm-12.1" />
-    <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-12.1" />
+    <!--<project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-12.1" />-->
 
     <!-- Hardware -->
     <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" revision="cm-12.1" />
