@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Remove Telecomm -->
-    <remove-project name="CyanogenMod/android_packages_services_Telecomm" />
+    <remove-project name="AICP/android_packages_services_Telecomm" />
 
     <!-- Device repos -->
     <!-- A series -->
-    <project path="device/samsung/a5ultexx" name="MSM8916-Samsung/android_device_samsung_a5ultexx" revision="cm-12.1" />
+    <project path="device/samsung/a5ultexx" name="MSM8916-Samsung/android_device_samsung_a5ultexx" revision="lp5.1" />
     <project path="device/samsung/a5-common" name="MSM8916-Samsung/android_device_samsung_a5-common" revision="cm-12.1" />
 
-    <!-- SM-G3815 (wilcoxltexx) -->
+    <!-- SM-G3815 (wilcoxltexx) 
     <project path="device/samsung/wilcoxltexx" name="TheWhisp/android_device_samsung_wilcoxltexx" revision="cm-12.1" />
-    <project path="device/samsung/msm8930-common" name="CyanogenMod/android_device_samsung_msm8930-common" revision="cm-12.1" />
+    <project path="device/samsung/msm8930-common" name="CyanogenMod/android_device_samsung_msm8930-common" revision="cm-12.1" />-->
 
     <!-- Kernels -->
     <project path="kernel/samsung/msm8916" name="TheWhisp/android_kernel_samsung_msm8916-caf" revision="cm-12.1" />
-    <project path="kernel/samsung/msm8930" name="CyanogenMod/android_kernel_samsung_msm8930-common" revision="cm-12.1" />
+    <!--<project path="kernel/samsung/msm8930" name="CyanogenMod/android_kernel_samsung_msm8930-common" revision="cm-12.1" />-->
 
     <!-- Vendor -->
     <project path="vendor/samsung" name="MSM8916-Samsung/proprietary_vendor_samsung" revision="cm-12.1" />
+    <project path="vendor/aicp" name="TheWhisp/vendor_aicp" revision="lp5.1" />
 
     <!-- Common device repos -->
     <project path="device/samsung/qcom-common" name="TheWhisp/android_device_samsung_qcom-common" revision="cm-12.1" />
