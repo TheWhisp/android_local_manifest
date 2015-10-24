@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- Remove Telecomm -->
-    <remove-project name="AICP/android_packages_services_Telecomm" />
+    <!-- Remove AICP projects which are replaced with custom repos -->
+    <remove-project name="AICP/packages_services_Telecomm" />
+    <remove-project name="AICP/vendor_aicp" />
 
     <!-- Device repos -->
     <!-- A series -->
