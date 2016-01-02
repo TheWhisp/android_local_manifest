@@ -27,6 +27,6 @@
     <project path="external/stlport" name="CyanogenMod/android_external_stlport" revision="cm-13.0" remote="github" />
 
     <!-- CM replacements -->
-    <project path="packages/services/Telecomm" name="TheWhisp/android_packages_services_Telecomm" revision="cm-13.0" remote="github" remote="github" />
+    <project path="packages/services/Telecomm" name="TheWhisp/android_packages_services_Telecomm" revision="cm-13.0" remote="github" />
 </manifest>
 
