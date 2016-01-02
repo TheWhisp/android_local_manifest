@@ -6,31 +6,27 @@
 
     <!-- Device repos -->
     <!-- A series -->
-    <project path="device/samsung/a5ultexx" name="MSM8916-Samsung/android_device_samsung_a5ultexx" revision="lp5.1" remote="github"/>
-    <project path="device/samsung/a5-common" name="MSM8916-Samsung/android_device_samsung_a5-common" revision="cm-12.1" remote="github"/>
-
-    <!-- SM-G3815 (wilcoxltexx) 
-    <project path="device/samsung/wilcoxltexx" name="TheWhisp/android_device_samsung_wilcoxltexx" revision="cm-12.1" />
-    <project path="device/samsung/msm8930-common" name="CyanogenMod/android_device_samsung_msm8930-common" revision="cm-12.1" />-->
-
-    <!-- Kernels -->
-    <project path="kernel/samsung/msm8916" name="TheWhisp/android_kernel_samsung_msm8916-caf" revision="cm-12.1" remote="github"/>
-    <!--<project path="kernel/samsung/msm8930" name="CyanogenMod/android_kernel_samsung_msm8930-common" revision="cm-12.1" />-->
-
-    <!-- Vendor -->
-    <project path="vendor/samsung" name="MSM8916-Samsung/proprietary_vendor_samsung" revision="cm-12.1" remote="github"/>
-    <project path="vendor/aicp" name="TheWhisp/vendor_aicp" revision="lp5.1" remote="github"/>
+    <project path="device/samsung/a5ultexx" name="MSM8916-Samsung/android_device_samsung_a5ultexx" revision="mm6.0" remote="github" />
+    <project path="device/samsung/a5-common" name="MSM8916-Samsung/android_device_samsung_a5-common" revision="cm-13.0" remote="github" />
 
     <!-- Common device repos -->
-    <project path="device/samsung/qcom-common" name="TheWhisp/android_device_samsung_qcom-common" revision="cm-12.1" remote="github" />
-    <!--<project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-12.1" />-->
+    <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" revision="cm-13.0" />
+
+    <!-- Kernels -->
+    <project path="kernel/samsung/msm8916" name="TheWhisp/android_kernel_samsung_msm8916-caf" revision="cm-13.0" remote="github" />
+
+    <!-- Vendor -->
+    <project path="vendor/samsung" name="MSM8916-Samsung/proprietary_vendor_samsung" revision="cm-13.0" remote="github" />
+    <project path="vendor/aicp" name="TheWhisp/vendor_aicp" revision="mm6.0" remote="github" />
 
     <!-- Hardware -->
-    <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" revision="cm-12.1" remote="github" />
-    <project path="external/mm-dash" name="CyanogenMod/android_external_mm-dash" revision="cm-12.1" remote="github" />
     <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" revision="cm-12.1" remote="github" />
 
+    <!-- Other -->
+    <project path="external/sony/boringssl-compat" name="CyanogenMod/android_external_sony_boringssl-compat" revision="cm-13.0" remote="github" />
+    <project path="external/stlport" name="CyanogenMod/android_external_stlport" revision="cm-13.0" remote="github" />
+
     <!-- CM replacements -->
-    <project path="packages/services/Telecomm" name="TheWhisp/android_packages_services_Telecomm" revision="cm-12.1" remote="github" />
+    <project path="packages/services/Telecomm" name="TheWhisp/android_packages_services_Telecomm" revision="cm-13.0" remote="github" remote="github" />
 </manifest>
 
