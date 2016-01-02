@@ -10,7 +10,7 @@
     <project path="device/samsung/a5-common" name="MSM8916-Samsung/android_device_samsung_a5-common" revision="cm-13.0" remote="github" />
 
     <!-- Common device repos -->
-    <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" revision="cm-13.0" />
+    <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" revision="cm-13.0" remote="github" />
 
     <!-- Kernels -->
     <project path="kernel/samsung/msm8916" name="TheWhisp/android_kernel_samsung_msm8916-caf" revision="cm-13.0" remote="github" />
