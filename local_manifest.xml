@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Remove AICP projects which are replaced with custom repos -->
-    <remove-project name="CyanogenMod/android_packages_services_Telecomm" />
+    <remove-project name="AICP/packages_services_Telecomm" />
     <remove-project name="AICP/vendor_aicp" />
 
     <!-- Device repos -->
@@ -26,7 +26,7 @@
     <project path="external/sony/boringssl-compat" name="CyanogenMod/android_external_sony_boringssl-compat" revision="cm-13.0" remote="github" />
     <project path="external/stlport" name="CyanogenMod/android_external_stlport" revision="cm-13.0" remote="github" />
 
-    <!-- CM replacements -->
-    <project path="packages/services/Telecomm" name="TheWhisp/android_packages_services_Telecomm" revision="cm-13.0" remote="github" />
+    <!-- Replacements -->
+    <project path="packages/services/Telecomm" name="TheWhisp/packages_services_Telecomm" revision="mm6.0" remote="github" />
 </manifest>
 
