@@ -20,7 +20,7 @@
     <project path="vendor/aicp" name="TheWhisp/vendor_aicp" revision="mm6.0" remote="github" />
 
     <!-- Hardware -->
-    <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" revision="cm-12.1" remote="github" />
+    <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" revision="cm-13.0" remote="github" />
 
     <!-- Other -->
     <project path="external/sony/boringssl-compat" name="CyanogenMod/android_external_sony_boringssl-compat" revision="cm-13.0" remote="github" />
